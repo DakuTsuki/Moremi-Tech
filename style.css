@@ -38,15 +38,15 @@ z-index: 100;
 width: Hug (1,440px)px;
 height: Hug (1,105px)px;
 top: 123px;
-padding: 50px 40px 96px 40px;
+padding:50px 12px 96px 12px;
 gap: 10px;
 opacity: 0px;
 
 }
 .section1 h1{
-font-size: 40px;
+font-size: 1.8em;
 font-weight: 500;
-line-height: 64px;
+line-height: 60px;
 letter-spacing: -0.02em;
 text-align: center;
 }
@@ -55,13 +55,13 @@ text-align: center;
 
 }
 .section1 p{
-font-size: 15px;
+font-size: 13px;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0.01em;
 text-align: center;
 display: inline-block;
-width: 560px;
+width: 19.5rem;
 }
 .section1 div button{
 background-color: #E13D7E;
@@ -93,7 +93,7 @@ border-width: 1px;
 .section2 {
     background-image: url(images/landingpage.png);
     background-size: 100% 100%;
-    height: 70vh;
+    height: 49vh;
 }
 
 
