@@ -83,12 +83,10 @@ body {
   border-width: 1px;
 }
 .section2 {
-  background-image: url(images/landingpage.png);
-  background-size: 100% 100%;
-  height: 85vh;
+    background-image: url(images/landingpage.png);
+    background-size: 100% 100%;
+    height: 40rem;
 }
-
-/* ourgoal */
 .goals {
   background-color: #ffeef5;
   border: none;
@@ -249,7 +247,7 @@ footer {
   height: auto;
   background-size: 100% 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
   }
@@ -261,14 +259,14 @@ footer {
   .card-style {
     padding: 20px 0px 200px 0px;
     overflow: visible;
-    width: 30rem;
-    font-size: 15px;
+    width: 23rem;
+    font-size: 10px;
   }
-  .programs {
+.programs {
     background: white;
-    width: 565px;
+    width: 20rem;
     padding: 50px;
-  }
+}
   .program {
     padding: 0px 0px 0px 0px;
   }
