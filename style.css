@@ -3,7 +3,7 @@
 body {
   background-color: #f8f8f8;
   font-family: roboto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .header {
   width: 1329px;
@@ -237,11 +237,11 @@ footer {
   height: 50px;
   border: none;
 }
-  .card-style {
-    padding: 20px 0px 200px 0px;
-    overflow: visible;
-    width: 37rem;
-  }
+.card-style {
+  padding: 20px 0px 200px 0px;
+  overflow: visible;
+  width: 37rem;
+}
 
 /* trending */
 .trend_img {
@@ -250,9 +250,12 @@ footer {
   background-size: 100% 100%;
 }
 @media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
 
   .section2 {
-      height: 26rem;
+    height: 26rem;
   }
 
   .card-style {
@@ -265,8 +268,8 @@ footer {
     background: white;
     width: 565px;
     padding: 50px;
-}
-.program {
+  }
+  .program {
     padding: 0px 0px 0px 0px;
-}
+  }
 }
